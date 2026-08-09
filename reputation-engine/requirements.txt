@@ -1,5 +1,7 @@
-fastapi==0.115.0
-uvicorn==0.30.6
-python-whois==0.9.4
-tldextract==5.1.2
-pydantic==2.7.4
+fastapi>=0.100.0
+uvicorn>=0.22.0
+python-whois>=0.8.0
+tldextract>=5.0.0
+pydantic>=2.0.0
+pytest>=7.4.0
+httpx>=0.24.0

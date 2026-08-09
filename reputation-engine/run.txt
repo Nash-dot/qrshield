@@ -1,0 +1,18 @@
+#Run this command on the root of the project folder in your terminal.
+
+uvicorn app.main:app --reload --port 8000
+
+# This will get the application running. create another terminal (DO NOT clode the running one) and type cmd.
+
+
+curl -X POST http://localhost:8001/analyse   -H "Content-Type: application/json"   -d '{"url": "-----PASTE_URL_HERE------"}'
+
+# For a browser oriented set up
+
+http://localhost:8000/docs
+
+
+# Navigate to the POST api section and replace the target url.
+
+
+--------------------------------------------------------------------
